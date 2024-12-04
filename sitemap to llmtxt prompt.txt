@@ -1,0 +1,130 @@
+Instructions for Generating an llm.txt File from a sitemap.xml:
+
+Start with the site name as a main heading using a single #. Use this:
+
+
+# Trackingplan
+Trackingplan is a marketing data monitoring and auditing tool: digital analytics, product analytics, marketing pixels, campaign tagging, consent and privacy.
+As a marketing observability tool, Trackingplan auto-discovers the configuration of websites and apps, automatically detects errors and simplifies debugging thanks to its data exploration tools.
+
+
+Organize URLs into Sections
+
+Group the URLs into logical sections based on their content. Common sections might include:
+
+## Main Pages
+## Resources
+## Use Cases
+## Tools
+## Services
+## Integrations (include all available integrations here)
+## Alternatives
+## Legal
+## Promotions
+## Blog
+### Authors
+### All Blog Posts
+## FAQs
+### All FAQs
+If certain URLs don't fit into these sections, create new sections as appropriate.
+
+Formatting Each Entry
+
+Within each section, list the URLs as bullet points using this format:
+
+- [Page Title](URL): Description
+Page Title: Extract or deduce a suitable title from the URL or the page's content.
+
+URL: Use the full URL from the sitemap.
+
+Description: Provide a brief description of the page based on its content or purpose.
+
+Include All URLs
+
+Ensure that all URLs from the sitemap.xml are included in the appropriate sections.
+Integrations Section
+
+Create a ## Integrations section.
+
+Include all URLs related to integrations under this section.
+
+Format each integration as per the standard entry format.
+
+Example Format
+
+Here's an example of how the entries should look:
+
+
+# Example Site
+
+## Main Pages
+
+- [Home](https://www.example.com): Brief description of the homepage.
+- [About Us](https://www.example.com/about): Information about the company.
+
+## Integrations
+
+- [Integration One](https://www.example.com/integrations/integration-one): Description of Integration One.
+- [Integration Two](https://www.example.com/integrations/integration-two): Description of Integration Two.
+
+## Blog
+
+### Authors
+
+- [Author Name](https://www.example.com/blog/author/author-name)
+
+### All Blog Posts
+
+- [Blog Post Title](https://www.example.com/blog/post-title): Brief description of the blog post.
+
+## FAQs
+
+- [How to use the product?](https://www.example.com/faqs/how-to-use): Explanation on how to use the product.
+Additional Notes:
+
+Page Titles and Descriptions:
+
+Use the page's content, meta titles, or headings to determine accurate and descriptive titles.
+Keep descriptions concise (one or two sentences) and informative.
+Consistency:
+
+Maintain consistent formatting throughout the llm.txt file.
+Use the same style for headings, bullet points, and descriptions.
+Categorization:
+
+Place each URL in the most appropriate section based on its content.
+If a URL fits into multiple sections, choose the one that best represents its primary purpose.
+Sections:
+
+Feel free to create additional sections if needed to accommodate all URLs.
+Ensure that the ## Integrations section includes all integration-related URLs.
+No URLs Left Behind:
+
+Double-check to make sure every URL from the sitemap.xml is included somewhere in the llm.txt file.
+Steps to Follow:
+
+Extract URLs:
+
+Parse the sitemap.xml to get a list of all URLs.
+Categorize URLs:
+
+Go through each URL and determine which section it belongs to.
+Determine Titles and Descriptions:
+
+Visit each URL if necessary to get the page title and write a brief description.
+Assemble the llm.txt File:
+
+Start with the site name header.
+Add each section and populate it with the formatted entries.
+Ensure all sections and entries are correctly formatted.
+Review:
+
+Proofread the llm.txt file for accuracy and consistency.
+
+Make sure ALL URLs in the sitemap are included and correctly categorized. ALL OF THEM. Do not leave any out, or summarize any block of urls.  Dont use *(Continued with all ... URLs from the sitemap)* or anything similar. PUT THE FUCKING URLS IN THE FUCKING FILE YOU LAZY BASTARD. Dont summarize any list. Dont say [...additional FAQs...]. Put the whole list, no matter if it's too long.
+
+Remember i need the result it to be copied inside a txt file, dont format it directly but use a copy code block.
+
+
+
+Here is the sitemap.xml. 
