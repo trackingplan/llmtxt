@@ -128,3 +128,5 @@ Remember i need the result it to be copied inside a txt file, dont format it dir
 
 
 Here is the sitemap.xml. 
+
+/* Paste the full sitemap of your site here */
